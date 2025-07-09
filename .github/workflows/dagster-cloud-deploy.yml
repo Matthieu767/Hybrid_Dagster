@@ -2,8 +2,7 @@ name: Dagster Cloud Hybrid Deployment
 on:
   push: # For full deployments
     branches:
-      - "main"
-      - "master"
+      - "*"
   pull_request:  # For branch deployments
      types: [opened, synchronize, reopened, closed]
 
